@@ -5,7 +5,7 @@ I am a person:
 - who knows how to organize my own work 🏢 📟
 - is very hardworking 👨🏻‍💻
 
-I like writing code and learning new technologies. I am passionate about studying the Godot and Unreal Engine game engines.
+I like writing code and learning new technologies. I am passionate about studying the Godot and Unreal Engine game engines, as well as 3D modeling.
 
 My favorite programming languages:
 
