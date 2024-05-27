@@ -1,4 +1,18 @@
-## Hi there 👋
+# Hi there 👋
+
+I am a person:
+
+- who knows how to organize my own work 🏢 📟
+- is very hardworking 👨🏻‍💻
+
+I like writing code and learning new technologies. I am passionate about studying the Godot and Unreal Engine game engines.
+
+My favorite programming languages:
+
+- C/C++
+- Python 🐍
+
+I am well versed in operating systems and prefer to work on Linux.
 
 <!--
 **PavelKotDRM/PavelKotDRM** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
