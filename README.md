@@ -30,7 +30,7 @@ well-defined output matter more than unnecessary complexity.
 The projects below reflect recent implementations, prototypes, and technical
 experiments. Their scope and status may evolve as the ideas are tested further.
 
-### `markoff` — document and data conversion
+### [`markoff`](https://github.com/PavelKotDRM/markoff) — document and data conversion
 
 A Rust workspace with CLI and GUI workflows for converting between Markdown,
 DOCX, PDF, PPTX, HTML, JSON, YAML, TOML, CSV, and XLSX. It includes batch
@@ -44,7 +44,7 @@ provides an interactive tree, search, typed editing, format conversion,
 multi-file comparison, copy/paste of nested structures, localization, and a
 headless CLI for formatting, validation, path search, and diffs.
 
-### `UpdateAllModules` — cross-platform update automation
+### [`UpdateAllModules`](https://github.com/PavelKotDRM/UpdateAllModulesInSystem) — cross-platform update automation
 
 A Rust CLI/GUI utility for checking and updating system package managers,
 Python packages, npm/pnpm, Node.js, Rust toolchains, and extensions for
@@ -73,7 +73,7 @@ A desktop application and library for creating users from Excel, deleting
 users by email, exporting the current user list, previewing mapped columns,
 and running non-destructive test modes before calling the OpenWebUI API.
 
-### `BitrixText Forge` — Markdown to Bitrix24 content
+### [`BitrixText Forge`](https://github.com/PavelKotDRM/bitrixtext_forge) — Markdown to Bitrix24 content
 
 A local desktop editor that previews Markdown and converts it to compatible
 Bitrix24 BBCode or plain text. It includes conversion profiles, diagnostics,
@@ -92,24 +92,82 @@ An interactive RustCrypto and `bcrypt` explorer with category navigation,
 visual operation results, and copyable Rust snippets. It is designed for
 learning APIs and formats, not for production cryptography.
 
-### `rand_explorer` — randomness and distributions
+### [`rand_explorer`](https://github.com/PavelKotDRM/rand_explorer) — randomness and distributions
 
 A GPU-accelerated egui application for exploring scalar generation, ranges,
 collections, distributions, histograms, deterministic RNG engines, and
 micro-benchmarks in the `rand` ecosystem.
+
+## Earlier public projects
+
+These public repositories preserve earlier experiments in Python, data
+visualization, Windows automation, and reusable developer utilities.
+
+### [`GreekRomanNumerical`](https://github.com/PavelKotDRM/GreekRomanNumerical) — Greek and Roman numerals
+
+A Python library for converting Arabic numbers to Greek and Roman numerals and
+back again. It supports textual representations, configurable Greek numeral
+formats, arithmetic operations on custom number types, tests, and an optional
+Rust backend behind the Python API.
+
+### [`LookWithJuputer`](https://github.com/PavelKotDRM/LookWithJuputer) — Jupyter data viewer
+
+An interactive Jupyter widget for browsing `pandas` and `polars` tables.
+It provides row-range navigation, column selection, a small Python API, and
+tests for working with larger DataFrames directly in notebooks.
+
+### [`ClassificationOfTexts`](https://github.com/PavelKotDRM/ClassificationOfTexts) — machine-learning notebooks
+
+A Python 3.11 project exploring text classification with PyTorch and fastai.
+The repository includes notebook-based models and a data-science stack built
+around spaCy, transformers, scikit-learn, pandas, polars, NumPy, and plotting
+tools.
+
+### [`ParserHostFile`](https://github.com/PavelKotDRM/ParserHostFile) — Windows hosts-file validation
+
+A PowerShell utility for checking the structure of the Windows `hosts` file,
+including the Microsoft header, IP addresses, hostnames, comments, line
+numbers, and validation errors.
+
+### [`UpdatePipevAndMsys`](https://github.com/PavelKotDRM/UpdatePipevAndMsys) — environment maintenance scripts
+
+A collection of PowerShell scripts for updating pip packages across configured
+Python virtual environments, PowerShell 7, and MSYS components, with a
+separate check-only workflow.
+
+## Institute assignments
+
+### [`AssignmentsAtTheInstitute`](https://github.com/PavelKotDRM/AssignmentsAtTheInstitute) — C++ coursework archive
+
+A public archive of completed laboratory works, practical assignments, and
+course projects from my institute years. The repository follows the
+progression from fundamental C++ exercises to Windows desktop applications:
+
+- **Laboratory works** covering functions and classes, dynamic memory, geometry,
+  bitwise operations, sorting, inheritance, polymorphism, copy semantics,
+  pointers, files, and data storage.
+- **Practical works** focused on functions, parameters, advanced C++ concepts,
+  specialized programming tasks, and geometric calculations.
+- **Course projects** including a `Rational` fraction type, employee-data
+  import/search/filter/export workflows, and a Windows Forms CRUD application.
+
+The archive is implemented with C++, Visual Studio/MSVC, STL, and Windows
+Forms. It documents an early foundation in object-oriented programming,
+algorithms, memory management, and file-based data processing.
 
 ## Technology stack
 
 | Area | Tools and technologies |
 | --- | --- |
 | Primary language | Rust, edition 2024 |
-| Other languages | C/C++, Python |
+| Other languages | C/C++, Python, PowerShell |
 | Desktop UI | `egui`, `eframe`, `egui_extras` |
 | Async and services | Tokio, `reqwest`, `rustls`, REST APIs |
 | Data and serialization | `serde`, JSON, YAML, TOML, OpenAPI |
+| Data science | Jupyter, PyTorch, fastai, pandas, polars, scikit-learn |
 | Storage and analytics | SQLite, PostgreSQL, SQLx, local-first workflows |
 | Documents and exports | Markdown, DOCX, PDF, PPTX, CSV, XLSX |
-| Delivery and quality | Cargo, Docker, GitHub Actions, rustfmt, Clippy, RustSec |
+| Delivery and quality | Cargo, uv, Docker, GitHub Actions, Visual Studio, pytest, rustfmt, Clippy, RustSec |
 
 ## Engineering principles
 
@@ -135,3 +193,5 @@ I'm interested in Rust tooling, automation, API and data workflows, developer
 experience, and thoughtful cross-platform applications.
 
 - [GitHub](https://github.com/PavelKotDRM)
+- [Telegram](https://t.me/PavelKotKPALab)
+- [Email](mailto:kpalab@pkotlyarov.ru)
