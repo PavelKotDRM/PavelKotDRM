@@ -37,7 +37,7 @@ DOCX, PDF, PPTX, HTML, JSON, YAML, TOML, CSV, and XLSX. It includes batch
 conversion, standard-input/output support, previews, drag-and-drop, format
 detection, round-trip tests, and a shared conversion core.
 
-### [`JSON Viewer`](https://github.com/PavelKotDRM/json_viewer) — structured-data workspace
+### [`StructView`](https://github.com/PavelKotDRM/StructView) — structured-data workspace
 
 A cross-platform viewer and editor for JSON, YAML, TOML, and JSON5. It
 provides an interactive tree, search, typed editing, format conversion,
