@@ -44,6 +44,13 @@ provides an interactive tree, search, typed editing, format conversion,
 multi-file comparison, copy/paste of nested structures, localization, and a
 headless CLI for formatting, validation, path search, and diffs.
 
+### [`rg_studio`](https://github.com/PavelKotDRM/rg_studio) — visual ripgrep command composer
+
+A cross-platform Rust/egui command composer and runner for ripgrep. It combines
+a visual regex builder, searchable option catalog, live sample-text preview,
+OS-aware command quoting, and background search output with stdout, stderr,
+and exit-code display.
+
 ### [`UpdateAllModules`](https://github.com/PavelKotDRM/UpdateAllModulesInSystem) — cross-platform update automation
 
 A Rust CLI/GUI utility for checking and updating system package managers,
