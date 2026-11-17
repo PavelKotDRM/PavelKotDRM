@@ -1,6 +1,6 @@
-# Hi, I'm Pavel 👋
+# Pavel (@PavelKotDRM) — Rust developer 👋
 
-### Rust developer building practical tools for developers, data, and automation
+### Building practical software for developers, data, and automation
 
 I design, implement, and test software that turns repetitive workflows into
 reliable tools. My recent work is mostly Rust-based and combines desktop
@@ -29,6 +29,12 @@ well-defined output matter more than unnecessary complexity.
 
 The projects below reflect recent implementations, prototypes, and technical
 experiments. Their scope and status may evolve as the ideas are tested further.
+
+### [`Casualties: Unknown Save Editor`](https://github.com/PavelKotDRM/casualties_unknown_save_edit) — game save editor and wiki
+
+A Rust/egui desktop application for editing and exploring Casualties: Unknown
+save files. It reads the game's gzip-compressed JSON saves, creates backups,
+and preserves unrecognized data when saving.
 
 ### [`markoff`](https://github.com/PavelKotDRM/markoff) — document and data conversion
 
@@ -199,6 +205,5 @@ software can make complex technical workflows easier to understand.
 I'm interested in Rust tooling, automation, API and data workflows, developer
 experience, and thoughtful cross-platform applications.
 
-- [GitHub](https://github.com/PavelKotDRM)
 - [Telegram](https://t.me/PavelKotKPALab)
 - [Email](mailto:kpalab@pkotlyarov.ru)
